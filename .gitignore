@@ -1,1 +1,13 @@
+# Data
 data/
+
+# R specific
+.Rhistory
+.RData
+.Ruserdata
+
+# macOS specific
+.DS_Store
+
+# Visual Studio Code
+.vscode/
