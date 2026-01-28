@@ -1,0 +1,33 @@
+{
+    "r.alwaysUseActiveTerminal": true,
+    "r.bracketedPaste": true,
+    "r.rterm.mac": "/Users/mwagwabi/miniconda3/envs/r_env/bin/radian",
+    "r.rpath.mac": "/Users/mwagwabi/miniconda3/envs/r_env/bin/R",
+    "workbench.startupEditor": "none",
+    "git.autofetch": true,
+    "workbench.editor.empty.hint": "hidden",
+    "terminal.integrated.inheritEnv": false,
+    "r.rterm.option": [],
+    "terminal.integrated.env.osx": {
+        "R_HOME": "/Users/mwagwabi/miniconda3/envs/r_env/lib/R",
+        "RSTUDIO_PANDOC": "/opt/homebrew/bin"
+    },
+    "r.plot.useHttpgd": true,
+    "files.associations": {
+        "*.rmd": "rmd"
+    },
+    "python.defaultInterpreterPath": "/Users/mwagwabi/miniconda3/envs/ihcor/bin/python",
+    "workbench.colorTheme": "Winter is Coming (Dark Black)",
+    "geminicodeassist.project": "optimal-stacker-lp9ff",
+    "diffEditor.codeLens": true,
+    "geminicodeassist.displayInlineContextHint": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "sql": false
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "geminicodeassist.inlineSuggestions.enableAuto": true
+}
