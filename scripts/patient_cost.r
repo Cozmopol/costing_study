@@ -95,12 +95,16 @@ patient_costing_summary <- patient_costing_clean |>
   bind_cols(
     imap_dfc(groups, \(visit_groups, visit_name) {
 
-      cols <- unlist(visit_groups)
+      imap_dfc(visit_groups, \(cols, leaf_name) {
 
-      tibble(
-        !!paste0("sum_", visit_name) :=
-          rowSums(patient_costing[, cols, drop = FALSE], na.rm = TRUE)
-      )
+        tibble(
+          !!paste0("sum_", visit_name, "_", leaf_name) :=
+            rowSums(
+              patient_costing_clean[, cols, drop = FALSE],
+              na.rm = TRUE
+            )
+        )
+      })
     })
   )
 
