@@ -2,7 +2,8 @@
 renv::init(bare = TRUE)
 
 # Install required packages
-renv::install(c("tidyverse", "readr", "rlang", "jsonlite"))
+# Additional packages in the renv.lock
+renv::install(c("tidyverse", "readr", "rlang", "jsonlite", "languageserver")) 
 
 # Snapshot the current state of the project library
 renv::snapshot()

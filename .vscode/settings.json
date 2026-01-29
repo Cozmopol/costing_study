@@ -17,7 +17,7 @@
         "*.rmd": "rmd"
     },
     "python.defaultInterpreterPath": "/Users/mwagwabi/miniconda3/envs/ihcor/bin/python",
-    "workbench.colorTheme": "Winter is Coming (Dark Black)",
+    "workbench.colorTheme": "Ayu Mirage",
     "geminicodeassist.project": "optimal-stacker-lp9ff",
     "diffEditor.codeLens": true,
     "geminicodeassist.displayInlineContextHint": false,

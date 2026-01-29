@@ -1,6 +1,9 @@
 # Data
 data/
 
+# Results
+results/
+
 # R specific
 .Rhistory
 .RData
