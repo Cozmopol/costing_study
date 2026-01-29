@@ -4,6 +4,9 @@ data/
 # Results
 results/
 
+# Analysis logs
+logs/
+
 # R specific
 .Rhistory
 .RData
